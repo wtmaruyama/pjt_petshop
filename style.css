@@ -6,6 +6,10 @@ h1{
     text-align: center;
 }
 
+h2 {
+    text-align: center;
+}
+
 p{
     text-align: center;
 }
@@ -20,4 +24,13 @@ em strong {
 
 #banner{
     width: 100%;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.itens {
+    font-style: italic
 }
