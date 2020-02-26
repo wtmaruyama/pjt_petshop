@@ -89,3 +89,27 @@ A principal diferença é que os elementos fixos não rolam com o restante da p�
     font-weight: bold;
     margin-top: 10px;
 }
+
+/* Em todos os elementos do HTML consigo mapear o comportamento com CSS e alterar o visual do elemento. */
+
+/* Pseudo-classes de estado - Hover */
+
+/* Hover: quando o usuário passa o cursor sobre o elemento */ 
+/* Quando um elemento está sendo ativado pelo usuário */
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+/* Active: Quando um elemento está sendo ativado pelo usuário */
+.produtos li:active {
+    border-color: #088C19;    
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
