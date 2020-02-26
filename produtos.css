@@ -113,3 +113,17 @@ nav a:hover {
 .produtos li:hover h2 {
     font-size: 34px;
 }
+
+/* tag semântica e caractere especial */
+footer {
+    text-align: center;
+    background: url("img/bg.jpg");
+    padding: 30px 0;
+}
+
+/* Os caracteres Unicode estão disponíveis para serem usados como um complemento ao nosso texto.*/
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
