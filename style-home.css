@@ -1,0 +1,63 @@
+body {
+    /* background: #CCCCCC; */
+}
+
+/* Substituido por .titulo-centralizado titulo-principal
+h1{
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+*/
+
+p{
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+#banner{
+    width: 100%;
+}
+
+/* O display com inline-block faz ela ser alinhada pela linha de cima. */
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+.itens {
+    font-style: italic
+}
+
+.imagembeneficios {
+    width: 15%;
+}
+
+.titulo-principal{
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center
+}
