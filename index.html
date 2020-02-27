@@ -5,31 +5,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Petshop do William</title>
-    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <h1 class="titulo-principal">Petshop do William</h1>
+        <div class="caixa">
+            <h1><img src="img/logo.png"></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <img id="banner" src="img/pet.svg">
-    <div class="principal">
-        <h2 class="titulo-centralizado">Sobre o Petshop</h2>
-        <p>Fundada em 2020 e localizada na zona leste de São Paulo o <strong>Petshop do William</strong> busca levar os
-            melhores produtos para os animais de estimação e comodidade ao seus donos.</p>
-        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar qualidade de vida aos clientes."</strong></em></p>
-        <p>O atendimento é agil e de qualidade, garantindo satisfação dos nossos clientes.</p>
-    </div>
-    <div class="beneficios">
-        <h3 class="titulo-centralizado">Benefícios</h3>
-        <ul>
-            <li class="itens">Atendimento aos clientes 24h</li>
-            <li class="itens">Plataforma de fácil utilização</li>
-            <li class="itens">Variedade de produtos</li>
-            <li class="itens">Comodidade</li>
-        </ul>
-        <img src="img/beneficios.svg" class="imagembeneficios">
-    </div>
+
+    <img class="banner" src="img/banner.png">
+
+    <main>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre o Petshop</h2>
+            <img class="petshop" src="img/petshop.png" alt="Ilustração do Petshop.">
+            <p>Fundada em 2020 e localizada na zona leste de São Paulo o <strong>Petshop do William</strong> busca levar
+                os
+                melhores produtos para os animais de estimação e comodidade ao seus donos.</p>
+            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar qualidade de vida aos clientes."</strong></em></p>
+            <p>O atendimento é agil e de qualidade, garantindo satisfação dos nossos clientes.</p>
+        </section>
+        <section class="beneficios">
+            <h3 class="titulo-principal">Benefícios</h3>
+            <ul>
+                <li class="itens">Atendimento aos clientes 24h</li>
+                <li class="itens">Plataforma de fácil utilização</li>
+                <li class="itens">Variedade de produtos</li>
+                <li class="itens">Comodidade</li>
+            </ul>
+            <img src="img/beneficios.svg" class="imagembeneficios">
+        </section>
+    </main>
+    <footer>
+        <img src="img/paw_blue.png">
+        <p class="copyright">&copy; Copyright Petshop do William - 2020</p>
+    </footer>
+
 </body>
 
 </html>
