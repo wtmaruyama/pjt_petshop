@@ -127,3 +127,38 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
+/**********************/
+/* Página de contato */
+form label {
+    /* Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width	*/
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+/* Estilo do paragrafo do form */
+form label, form p {
+    display: block; 
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+/* Estilo do input do form */
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
