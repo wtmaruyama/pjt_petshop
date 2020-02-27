@@ -130,6 +130,17 @@ footer {
 
 /**********************/
 /* Página de contato */
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+
 form label {
     /* Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width	*/
     display:block;
@@ -138,27 +149,35 @@ form label {
 }
 
 /* Estilo do paragrafo do form */
-form label, form p {
-    display: block; 
+form label, form legend {
+    display:block;
     font-size: 20px;
     margin: 0 0 10px;
 }
 
 /* Estilo do input do form */
-form input {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
-}
-
 .input-padrao {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
 }
 
 .checkbox {
     margin: 20px 0;
 }
+
+/*********************/
+/*
+id --> 100
+class --> 10
+tag --> 1
+inline --> 1000
+
+Exemplo: 
+p --> 1
+form p --> 1+1 = 2
+.nomeClasse --> 10
+p.form --> 10+1
+*/
+
