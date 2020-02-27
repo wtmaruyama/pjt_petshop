@@ -206,3 +206,19 @@ O título de um fildset é chamado de legend
     background: darkorange;
     transform: scale(1.2); /* aumenta o tamanho do botao proporcionalmente me 20% */
 }
+
+/** Tabela **/
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
